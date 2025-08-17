@@ -1,0 +1,105 @@
+! Title: NoTelegram
+! Description: Block Telegram / Блокирует Телеграм
+
+! === MAIN DOMAINS ===
+||telegram.org^
+||telegram.me^
+||t.me^
+||tg.dev^
+||telesco.pe^
+||telegram.dog^
+||telegram.sx^
+||telegram.im^
+||tgstat.ru^
+||tginfo.me^
+||*.telegram.org^
+||*.telegram.me^
+||*.t.me^
+||*.tg.dev^
+
+! === CDN AND SERVERS ===
+||cdn1.telegram.org^
+||cdn2.telegram.org^
+||cdn3.telegram.org^
+||cdn4.telegram.org^
+||cdn5.telegram.org^
+||cdn6.telegram.org^
+||web.telegram.org^
+||venus.web.telegram.org^
+||pluto.web.telegram.org^
+||aurora.web.telegram.org^
+||vesta.web.telegram.org^
+||flora.web.telegram.org^
+||zed.web.telegram.org^
+
+! === API AND SERVERS ===
+||api.telegram.org^
+||api.telegra.ph^
+||core.telegram.org^
+||desktop.telegram.org^
+||macos.telegram.org^
+||translations.telegram.org^
+||bugs.telegram.org^
+
+! === TELEGRAPH ===
+||telegra.ph^
+||graph.org^
+||*.telegra.ph^
+||*.graph.org^
+
+! === UPDATES AND DOWNLOADS ===
+||updates.tdesktop.com^
+||github.com^$path=/telegramdesktop/*
+||telegram.org^$path=/dl/*
+||telegram.org^$path=/apps/*
+
+! === TELEGRAM PREMIUM ===
+||fragment.com^
+||*.fragment.com^
+
+! === TON BLOCKCHAIN ===
+||ton.org^
+||*.ton.org^
+||tonkeeper.com^
+||*.tonkeeper.com^
+||getgems.io^
+||*.getgems.io^
+
+! === TELEGRAM CHANNELS AND SERVICES  ===
+||tgchannels.me^
+||telegramchannels.me^
+||tlgrm.ru^
+||tgstat.com^
+||combot.org^
+||telegram-store.com^
+||tstore.io^
+||telemetr.io^
+
+! === PROXY AND MIRRORS  ===
+||web.telegram.im^
+||webz.telegram.org^
+||webk.telegram.org^
+||webogram.org^
+||telegram-web.github.io^
+||zhukov.github.io^$path=/webogram/^
+
+! === BLOCK EMBEMDS ===
+telegram.org^$frame
+t.me^$frame
+telegra.ph^$frame
+
+! === BLOCK USER-AGENT ===
+$client=~telegram*
+$client=~tdesktop*
+$client=~tg*
+
+! === BLOCK APPS ===
+||telegram.org^$app=org.telegram.desktop
+||telegram.org^$app=org.telegram.messenger
+||telegram.org^$app=org.telegram.plus
+||telegram.org^$app=ph.telegra.Telegraph
+
+! === ADDITIANAL SERVICES ===
+||contest.com^$domain=telegram.org
+||instantview.telegram.org^
+||oauth.telegram.org^
