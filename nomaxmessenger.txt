@@ -1,137 +1,96 @@
-! Title: NoMAX Messenger
-! Description: Blocked Messenger Max / Блокирует мессенджер Max
-! Version: 1.0
+! Title: NoMAX Messenger Filter
+! Description: Block VK MAX messenger / Блокировать мессенджер MAX от ВК
+! Version: 3.0
+! Last modified: 2025-08-17
 
 ! === MAIN DOMAINS ===
 ||oneme.app^
 ||oneme.ru^
 ||oneme.com^
-||oneme.net^
+||max.ru^
+||max.com^
+||maxmessenger.com^
+||maxmessenger.ru^
+||getmax.app^
+||getmax.ru^
+||max-app.ru^
+||max-app.com^
+
+! === ALL SUBDOMAINS ===
 ||*.oneme.app^
 ||*.oneme.ru^
 ||*.oneme.com^
-||*.oneme.net^
+||*.max.ru^
+||*.max.com^
+||*.maxmessenger.com^
+||*.maxmessenger.ru^
+||*.getmax.app^
+||*.getmax.ru^
+||*.max-app.ru^
+||*.max-app.com^
 
 ! === VK MAX INTEGRATION ===
 ||max.vk.com^
 ||*.max.vk.com^
 
-! === API ENDPOINTS ===
+! === SPECIFIC SUBDOMAINS ===
 ||api.oneme.app^
-||api.oneme.ru^
-||api1.oneme.app^
-||api2.oneme.app^
-||apigateway.oneme.app^
-||gateway.oneme.app^
-||backend.oneme.app^
-||server.oneme.app^
-||core.oneme.app^
-
-! === CDN AND STATIC CONTENT ===
-||cdn.oneme.app^
-||cdn.oneme.ru^
-||cdn1.oneme.app^
-||cdn2.oneme.app^
-||cdn3.oneme.app^
-||static.oneme.app^
-||static.oneme.ru^
-||assets.oneme.app^
-||media.oneme.app^
-||images.oneme.app^
-||files.oneme.app^
-||uploads.oneme.app^
-||content.oneme.app^
-
-! === WEB VERSIONS ===
 ||web.oneme.app^
-||web.oneme.ru^
 ||m.oneme.app^
-||m.oneme.ru^
-||mobile.oneme.app^
-||webapp.oneme.app^
-||app.oneme.app^
-||client.oneme.app^
-
-! === DOWNLOADS AND UPDATES ===
+||cdn.oneme.app^
+||static.oneme.app^
 ||updates.oneme.app^
 ||download.oneme.app^
-||releases.oneme.app^
-||apps.oneme.app^
-||install.oneme.app^
-||get.oneme.app^
-||store.oneme.app^
 
-! === ANALYTICS AND TRACKING ===
+||api.oneme.ru^
+||web.oneme.ru^
+||m.oneme.ru^
+||cdn.oneme.ru^
+||static.oneme.ru^
+
+||web.max.ru^
+||api.max.ru^
+||m.max.ru^
+||cdn.max.ru^
+||static.max.ru^
+
+||web.max.com^
+||api.max.com^
+||m.max.com^
+||cdn.max.com^
+||static.max.com^
+
+||api.maxmessenger.com^
+||web.maxmessenger.com^
+||cdn.maxmessenger.com^
+||static.maxmessenger.com^
+
+||api.getmax.app^
+||web.getmax.app^
+||cdn.getmax.app^
+||download.getmax.app^
+
+! === ADDITIONAL SERVICES ===
 ||analytics.oneme.app^
 ||metrics.oneme.app^
-||stats.oneme.app^
-||tracking.oneme.app^
-||telemetry.oneme.app^
-||counter.oneme.app^
-||events.oneme.app^
-
-! === SUPPORT AND DOCUMENTATION ===
 ||support.oneme.app^
 ||help.oneme.app^
-||docs.oneme.app^
-||wiki.oneme.app^
-||faq.oneme.app^
-||feedback.oneme.app^
-
-! === DEVELOPER SERVICES ===
 ||dev.oneme.app^
-||developer.oneme.app^
-||developers.oneme.app^
-||api-docs.oneme.app^
-||sdk.oneme.app^
 
 ! === REGIONAL DOMAINS ===
 ||oneme.by^
 ||oneme.kz^
 ||oneme.ua^
-||*.oneme.by^
-||*.oneme.kz^
-||*.oneme.ua^
+||max.by^
+||max.kz^
+||max.ua^
 
-! === MAIL AND NOTIFICATIONS ===
-||mail.oneme.app^
-||notify.oneme.app^
-||push.oneme.app^
-||notification.oneme.app^
-||alerts.oneme.app^
-
-! === SECURITY AND AUTH ===
-||auth.oneme.app^
-||login.oneme.app^
-||oauth.oneme.app^
-||sso.oneme.app^
-||security.oneme.app^
-
-! === PAYMENT SERVICES ===
-||pay.oneme.app^
-||payment.oneme.app^
-||billing.oneme.app^
-||wallet.oneme.app^
-
-! === FRAME BLOCKING ===
-oneme.app^$frame
-oneme.ru^$frame
-max.vk.com^$frame
-
-! === APP BLOCKING ===
-||oneme.app^$app=ru.oneme.app
-||*.oneme.app^$app=ru.oneme.app
-||vk.com^$app=com.vkontakte.android$path=*/max*
-
-! === USER-AGENT BLOCKING ===
-$client=~MAX*
-$client=~OneMe*
-
-! === IP RANGES (if known) ===
-! Add IP ranges here when discovered
-
-! === ALTERNATIVE SPELLINGS ===
+! === ALTERNATIVE DOMAINS ===
+||onemessenger.com^
+||onemessenger.ru^
 ||one-me.app^
-||oneme-app.ru^
-||maxmessenger.ru^
-||max-messenger.com^
+||one-me.ru^
+||maxapp.ru^
+||maxapp.com^
+||mymax.ru^
+||mymax.com^
