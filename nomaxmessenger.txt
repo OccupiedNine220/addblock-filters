@@ -1,13 +1,12 @@
 ! Title: NoMAX Messenger Filter
 ! Description: Block VK MAX messenger / Блокировать мессенджер MAX от ВК
-! Version: 3.0
-! Last modified: 2025-08-17
 
 ! === MAIN DOMAINS ===
 ||oneme.app^
 ||oneme.ru^
 ||oneme.com^
 ||max.ru^
+||max.ru
 ||max.com^
 ||maxmessenger.com^
 ||maxmessenger.ru^
