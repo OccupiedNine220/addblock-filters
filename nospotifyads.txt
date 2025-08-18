@@ -1,0 +1,106 @@
+! Title: Spotify Ad Block Filter
+! Description: Block Spotify advertising domains, analytics and trackers / Блокировка рекламы, аналитики и трекеров Spotify
+! Version: 1.0
+
+! === MAIN SPOTIFY AD DOMAINS ===
+||ads.spotify.com^
+||ads-fa.spotify.com^
+||audio-ads.spotify.com^
+||audio2.spotify.com^
+||adeventtracker.spotify.com^
+||ads-fa.spotifycdn.com^
+
+! === SPOTIFY ANALYTICS AND LOGGING ===
+||analytics.spotify.com^
+||crashdump.spotify.com^
+||log.spotify.com^
+||logging.spotify.com^
+||insights.spotify.com^
+
+! === SPOTIFY REGIONAL AUDIO SERVERS ===
+! North America
+||audio-sp-nyc.spotify.com^
+||audio-sp-ash.spotify.com^
+||audio-sp-dca.spotify.com^
+||audio-sp-mia.spotify.com^
+||audio-sp-sjc.spotify.com^
+
+! Europe
+||audio-sp-lon.spotify.com^
+||audio-sp-fra.spotify.com^
+||audio-sp-sto.spotify.com^
+||audio-sp-ams.spotify.com^
+||audio-sp-dub.spotify.com^
+
+! Asia Pacific
+||audio-sp-tyo.spotify.com^
+||audio-sp-sin.spotify.com^
+||audio-sp-sea.spotify.com^
+
+! Additional Regional Servers
+||sto3.spotify.com^
+||lon6.spotify.com^
+||ash3.spotify.com^
+||sjc2.spotify.com^
+||nyc3.spotify.com^
+
+! === AKAMAI CDN AD SERVERS ===
+||audio-ak-spotify-com.akamaized.net^
+||heads-ak-spotify-com.akamaized.net^
+||heads2-ak-spotify-com.akamaized.net^
+||heads3-ak-spotify-com.akamaized.net^
+||heads4-ak-spotify-com.akamaized.net^
+||heads5-ak-spotify-com.akamaized.net^
+||heads6-ak-spotify-com.akamaized.net^
+||heads7-ak-spotify-com.akamaized.net^
+||heads8-ak-spotify-com.akamaized.net^
+||heads9-ak-spotify-com.akamaized.net^
+||audio2-ak-spotify-com.akamaized.net^
+||audio3-ak-spotify-com.akamaized.net^
+||audio4-ak-spotify-com.akamaized.net^
+||audio5-ak-spotify-com.akamaized.net^
+||audio-ads-spotify-com.akamaized.net^
+
+! === FASTLY CDN ===
+||sp-bootstrap.global.ssl.fastly.net^
+||prod.spotify.map.fastlylb.net^
+
+! === EDGECAST CDN ===
+||cs283.wpc.edgecastcdn.net^
+||cs126.wpc.edgecastcdn.net^
+||open.spotify.com.edgekey.net^
+
+! === SPOTIFY SPECIFIC TRACKING ===
+||sp-prod.spotify.com^
+||audio-ec.spotify.com^
+||heads-ec.spotify.com^
+||www.audio2.spotify.com^
+
+! === GOOGLE AD SERVICES ===
+||spotify-ads.g.doubleclick.net^
+||googleads.g.doubleclick.net^
+||pubads.g.doubleclick.net^
+||securepubads.g.doubleclick.net^
+||video-ad-stats.googlesyndication.com^
+||pagead46.googlesyndication.com^
+||partner.googleadservices.com^
+||tpc.googlesyndication.com^
+
+! === PUBMATIC AD NETWORK ===
+||gads.pubmatic.com^
+||ads.pubmatic.com^
+||showads33000.pubmatic.com^
+
+! === MOBILE ANALYTICS AND TRACKING ===
+||api.mixpanel.com^
+||app.adjust.com^
+||sdk.iad-01.braze.com^
+||sdk.iad-02.braze.com^
+||sdk.iad-03.braze.com^
+||sdk.iad-04.braze.com^
+||sdk.iad-05.braze.com^
+||sdk.iad-06.braze.com^
+||sdk.iad-08.braze.com^
+
+! === ADDITIONAL CDN AND SYNC ===
+||idsync-ext.rlcdn.com^
