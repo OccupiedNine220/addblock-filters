@@ -1,0 +1,60 @@
+! Title: NoRuStore Filter
+! Description: Block RuStore / Блокировать RuStore
+
+! === MAIN DOMAINS ===
+||rustore.ru^
+||apps.rustore.ru^
+||www.rustore.ru^
+||mobile.rustore.ru^
+||api.rustore.ru^
+||download.rustore.ru^
+
+! === CDN AND STATIC RESOURCES ===
+||cdn.rustore.ru^
+||static.rustore.ru^
+||img.rustore.ru^
+||media.rustore.ru^
+||assets.rustore.ru^
+
+! === API AND BACKEND SERVICES ===
+||api-gateway.rustore.ru^
+||backend.rustore.ru^
+||services.rustore.ru^
+||auth.rustore.ru^
+||oauth.rustore.ru^
+
+! === ANALYTICS AND TRACKING ===
+||analytics.rustore.ru^
+||metrics.rustore.ru^
+||stats.rustore.ru^
+||tracking.rustore.ru^
+||telemetry.rustore.ru^
+
+! === MOBILE APP SPECIFIC ===
+||mobile-api.rustore.ru^
+||app-updates.rustore.ru^
+||push.rustore.ru^
+||notifications.rustore.ru^
+
+! === DEVELOPER CONSOLE ===
+||developer.rustore.ru^
+||console.rustore.ru^
+||dev.rustore.ru^
+||publisher.rustore.ru^
+
+! === PAYMENT AND BILLING ===
+||payments.rustore.ru^
+||billing.rustore.ru^
+||checkout.rustore.ru^
+
+! === SUPPORT AND HELP ===
+||support.rustore.ru^
+||help.rustore.ru^
+||faq.rustore.ru^
+
+! === ALTERNATIVE DOMAINS (IF ANY) ===
+||ru-store.ru^
+||rustoreapp.ru^
+
+! === SUBDOMAINS WILDCARD (CATCH-ALL) ===
+||*.rustore.ru^
