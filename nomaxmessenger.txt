@@ -46,6 +46,8 @@
 ||m.oneme.ru^
 ||cdn.oneme.ru^
 ||static.oneme.ru^
+||ws-api.oneme.ru^
+||*.getmax.app^
 
 ||web.max.ru^
 ||api.max.ru^
@@ -76,14 +78,6 @@
 ||help.oneme.app^
 ||dev.oneme.app^
 
-! === REGIONAL DOMAINS ===
-||oneme.by^
-||oneme.kz^
-||oneme.ua^
-||max.by^
-||max.kz^
-||max.ua^
-
 ! === ALTERNATIVE DOMAINS ===
 ||onemessenger.com^
 ||onemessenger.ru^
@@ -93,3 +87,7 @@
 ||maxapp.com^
 ||mymax.ru^
 ||mymax.com^
+
+! === TRACKERS ===
+||apptracer.ru^
+||sdk-api.apptracer.ru^
