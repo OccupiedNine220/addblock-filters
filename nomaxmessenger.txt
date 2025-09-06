@@ -1,12 +1,14 @@
 ! Title: NoMAX Messenger Filter
 ! Description: Block VK MAX messenger / Блокировать мессенджер MAX от ВК
+! Effect: Full block Max / Полностью блокирует Max
+! URLs from KARENKING112/max-deep-analysis-of-the-messenger
+! List Author: OccupiedNine220
 
 ! === MAIN DOMAINS ===
 ||oneme.app^
 ||oneme.ru^
 ||oneme.com^
 ||max.ru^
-||max.ru
 ||max.com^
 ||maxmessenger.com^
 ||maxmessenger.ru^
@@ -32,51 +34,145 @@
 ||max.vk.com^
 ||*.max.vk.com^
 
-! === SPECIFIC SUBDOMAINS ===
+! === CORE API ENDPOINTS ===
 ||api.oneme.app^
-||web.oneme.app^
-||m.oneme.app^
-||cdn.oneme.app^
-||static.oneme.app^
-||updates.oneme.app^
-||download.oneme.app^
-
 ||api.oneme.ru^
-||web.oneme.ru^
-||m.oneme.ru^
-||cdn.oneme.ru^
-||static.oneme.ru^
-||ws-api.oneme.ru^
-||*.getmax.app^
-
-||web.max.ru^
 ||api.max.ru^
-||m.max.ru^
-||cdn.max.ru^
-||static.max.ru^
-
-||web.max.com^
 ||api.max.com^
-||m.max.com^
-||cdn.max.com^
-||static.max.com^
-
 ||api.maxmessenger.com^
-||web.maxmessenger.com^
-||cdn.maxmessenger.com^
-||static.maxmessenger.com^
-
 ||api.getmax.app^
-||web.getmax.app^
-||cdn.getmax.app^
-||download.getmax.app^
 
-! === ADDITIONAL SERVICES ===
-||analytics.oneme.app^
-||metrics.oneme.app^
+! === WEB INTERFACES ===
+||web.oneme.app^
+||web.oneme.ru^
+||web.max.ru^
+||web.max.com^
+||web.maxmessenger.com^
+||web.getmax.app^
+
+! === MOBILE INTERFACES ===
+||m.oneme.app^
+||m.oneme.ru^
+||m.max.ru^
+||m.max.com^
+
+! === CDN & STATIC CONTENT ===
+||cdn.oneme.app^
+||cdn.oneme.ru^
+||cdn.max.ru^
+||cdn.max.com^
+||cdn.maxmessenger.com^
+||cdn.getmax.app^
+||static.oneme.app^
+||static.oneme.ru^
+||static.max.ru^
+||static.max.com^
+||static.maxmessenger.com^
+||static.getmax.app^
+
+! === WEBSOCKET & REAL-TIME ===
+||ws.oneme.app^
+||ws.oneme.ru^
+||ws.max.ru^
+||ws.max.com^
+||ws-api.oneme.ru^
+||websocket.oneme.app^
+||websocket.oneme.ru^
+||realtime.oneme.app^
+||realtime.oneme.ru^
+
+! === DOWNLOADS & UPDATES ===
+||download.oneme.app^
+||download.oneme.ru^
+||download.max.ru^
+||download.getmax.app^
+||updates.oneme.app^
+||updates.oneme.ru^
+||updates.max.ru^
+||update.oneme.app^
+||update.oneme.ru^
+||update.max.ru^
+
+! === AUTHENTICATION ===
+||auth.oneme.app^
+||auth.oneme.ru^
+||auth.max.ru^
+||login.oneme.app^
+||login.oneme.ru^
+||login.max.ru^
+||oauth.oneme.app^
+||oauth.oneme.ru^
+||oauth.max.ru^
+
+! === MEDIA SERVICES ===
+||media.oneme.app^
+||media.oneme.ru^
+||media.max.ru^
+||images.oneme.app^
+||images.oneme.ru^
+||images.max.ru^
+||video.oneme.app^
+||video.oneme.ru^
+||video.max.ru^
+||files.oneme.app^
+||files.oneme.ru^
+||files.max.ru^
+
+! === VOICE & VIDEO CALLS ===
+||voice.oneme.app^
+||voice.oneme.ru^
+||voice.max.ru^
+||calls.oneme.app^
+||calls.oneme.ru^
+||calls.max.ru^
+||voip.oneme.app^
+||voip.oneme.ru^
+||voip.max.ru^
+
+! === NOTIFICATION SERVICES ===
+||push.oneme.app^
+||push.oneme.ru^
+||push.max.ru^
+||notifications.oneme.app^
+||notifications.oneme.ru^
+||notifications.max.ru^
+||fcm.oneme.app^
+||fcm.oneme.ru^
+||fcm.max.ru^
+
+! === SUPPORT & HELP ===
 ||support.oneme.app^
+||support.oneme.ru^
+||support.max.ru^
 ||help.oneme.app^
+||help.oneme.ru^
+||help.max.ru^
+
+! === DEVELOPMENT & TESTING ===
 ||dev.oneme.app^
+||dev.oneme.ru^
+||dev.max.ru^
+||test.oneme.app^
+||test.oneme.ru^
+||test.max.ru^
+||staging.oneme.app^
+||staging.oneme.ru^
+||staging.max.ru^
+
+! === ANALYTICS & TELEMETRY ===
+||analytics.oneme.app^
+||analytics.oneme.ru^
+||analytics.max.ru^
+||metrics.oneme.app^
+||metrics.oneme.ru^
+||metrics.max.ru^
+||tracking.oneme.app^
+||tracking.oneme.ru^
+||tracking.max.ru^
+
+! === EXTERNAL TRACKERS ===
+||apptracer.ru^
+||*.apptracer.ru^
 
 ! === ALTERNATIVE DOMAINS ===
 ||onemessenger.com^
@@ -87,7 +183,3 @@
 ||maxapp.com^
 ||mymax.ru^
 ||mymax.com^
-
-! === TRACKERS ===
-||apptracer.ru^
-||sdk-api.apptracer.ru^

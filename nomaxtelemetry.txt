@@ -1,0 +1,194 @@
+! Title: NoMaxTelemetry
+! Description: Block Telemetry Max Messenger / Блокирует слежку мессенджера Max
+! Effect: Block Telemetry / Блокирует телеметрию и слежку мессенждера
+! URLs from KARENKING112/max-deep-analysis-of-the-messenger
+! List Author: OccupiedNine220
+
+! === PRIMARY DOMAINS ===
+! Main domains from analysis
+||oneme.com^
+||getmax.app^
+||getmax.ru^
+
+! === VK MAX INTEGRATION ===
+||max.vk.com^
+||*.max.vk.com^
+
+! === ANALYTICS & METRICS ===
+||analytics.oneme.app^
+||analytics.oneme.ru^
+||analytics.max.ru^
+||analytics.max.com^
+||analytics.maxmessenger.com^
+||analytics.getmax.app^
+
+||metrics.oneme.app^
+||metrics.oneme.ru^
+||metrics.max.ru^
+||metrics.max.com^
+||metrics.maxmessenger.com^
+||metrics.getmax.app^
+
+! === MYTRACKER TELEMETRY (from reverse engineering) ===
+! MyTracker is heavily used for data collection
+||tracker.oneme.app^
+||tracker.oneme.ru^
+||tracker.max.ru^
+||tracker.max.com^
+||mytracker.oneme.app^
+||mytracker.oneme.ru^
+||mytracker.max.ru^
+||mytracker.max.com^
+||mt.oneme.app^
+||mt.oneme.ru^
+||mt.max.ru^
+||mt.max.com^
+
+! === TRACKING & TELEMETRY ===
+||track.oneme.app^
+||track.oneme.ru^
+||track.max.ru^
+||track.max.com^
+||tracking.oneme.app^
+||tracking.oneme.ru^
+||telemetry.oneme.app^
+||telemetry.oneme.ru^
+||telemetry.max.ru^
+
+! === DATA COLLECTION ENDPOINTS ===
+||collect.oneme.app^
+||collect.oneme.ru^
+||collect.max.ru^
+||events.oneme.app^
+||events.oneme.ru^
+||events.max.ru^
+||data.oneme.app^
+||data.oneme.ru^
+||data.max.ru^
+
+! === EXTERNAL TRACKERS ===
+||apptracer.ru^
+||sdk-api.apptracer.ru^
+||*.apptracer.ru^
+
+! === CRASH REPORTING ===
+||crash.oneme.app^
+||crash.oneme.ru^
+||crash.max.ru^
+||crashlytics.oneme.app^
+||crashlytics.oneme.ru^
+||sentry.oneme.app^
+||sentry.oneme.ru^
+||sentry.max.ru^
+
+! === USER BEHAVIOR & ENGAGEMENT TRACKING ===
+||behavior.oneme.app^
+||behavior.oneme.ru^
+||behavior.max.ru^
+||usage.oneme.app^
+||usage.oneme.ru^
+||usage.max.ru^
+||activity.oneme.app^
+||activity.oneme.ru^
+||activity.max.ru^
+||engagement.oneme.app^
+||engagement.oneme.ru^
+||engagement.max.ru^
+
+! === STATS & STATISTICS ===
+||stats.oneme.app^
+||stats.oneme.ru^
+||stats.max.ru^
+||stats.max.com^
+||statistics.oneme.app^
+||statistics.oneme.ru^
+||statistics.max.ru^
+
+! === AD TRACKING ===
+||ads.oneme.app^
+||ads.oneme.ru^
+||ads.max.ru^
+||advertising.oneme.app^
+||advertising.oneme.ru^
+||advertising.max.ru^
+||ad.oneme.app^
+||ad.oneme.ru^
+||ad.max.ru^
+
+! === ATTRIBUTION & CAMPAIGN TRACKING ===
+||attribution.oneme.app^
+||attribution.oneme.ru^
+||attribution.max.ru^
+||campaign.oneme.app^
+||campaign.oneme.ru^
+||campaign.max.ru^
+||referrer.oneme.app^
+||referrer.oneme.ru^
+||referrer.max.ru^
+
+! === API ENDPOINTS FOR TELEMETRY ===
+||api-analytics.oneme.app^
+||api-analytics.oneme.ru^
+||api-analytics.max.ru^
+||api-metrics.oneme.app^
+||api-metrics.oneme.ru^
+||api-metrics.max.ru^
+||api-track.oneme.app^
+||api-track.oneme.ru^
+||api-track.max.ru^
+
+! === LOGGING & MONITORING ===
+||log.oneme.app^
+||log.oneme.ru^
+||log.max.ru^
+||logs.oneme.app^
+||logs.oneme.ru^
+||logs.max.ru^
+||monitor.oneme.app^
+||monitor.oneme.ru^
+||monitor.max.ru^
+
+! === FINGERPRINTING & PROFILING ===
+||fingerprint.oneme.app^
+||fingerprint.oneme.ru^
+||fingerprint.max.ru^
+||profile.oneme.app^
+||profile.oneme.ru^
+||profile.max.ru^
+||profiling.oneme.app^
+||profiling.oneme.ru^
+||profiling.max.ru^
+
+! === A/B TESTING ===
+||ab.oneme.app^
+||ab.oneme.ru^
+||ab.max.ru^
+||abtest.oneme.app^
+||abtest.oneme.ru^
+||abtest.max.ru^
+||experiments.oneme.app^
+||experiments.oneme.ru^
+||experiments.max.ru^
+
+! === SECURITY & FRAUD DETECTION (but still telemetry) ===
+||security.oneme.app^
+||security.oneme.ru^
+||security.max.ru^
+||fraud.oneme.app^
+||fraud.oneme.ru^
+||fraud.max.ru^
+||antifraud.oneme.app^
+||antifraud.oneme.ru^
+||antifraud.max.ru^
+
+! === GOVERNMENT/STATE DATA SHARING (based on privacy policy) ===
+! These might be used for state surveillance
+||gov.oneme.app^
+||gov.oneme.ru^
+||gov.max.ru^
+||government.oneme.app^
+||government.oneme.ru^
+||government.max.ru^
+||state.oneme.app^
+||state.oneme.ru^
+||state.max.ru^
