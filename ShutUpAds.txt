@@ -1,0 +1,16 @@
+! Title: ShutUpAds
+! Description: Ad blocking filter list
+! Homepage: https://github.com/OccupiedNine220/adblock-filters
+! Tested on uBlock Origin (Firefox)
+
+! Jun 6, 2026 https://mail.yandex.ru
+mail.yandex.ru##.p9d2710fd
+mail.yandex.ru##.jedf9797f
+mail.yandex.ru##.DisableAdsButton__button--A9PTp.Button2_size_xs.Button2_view_default.Button2_type_link.Button2
+mail.yandex.ru###dd_KXaW_57poDswA
+mail.yandex.ru##.dXaDUamvi8_UdqAFQ
+mail.yandex.ru##.dWejIYW3kzN4fog-portal
+mail.yandex.ru##.dd_KXd23i79sdohAWZIQzgVs.dTajdbHrT79sEqgxpeYIg
+
+! Jun 6, 2026 https://yandex.ru
+yandex.ru###\30 9e58354c3604ae1983e2507fc71a912R-I-142300-222
